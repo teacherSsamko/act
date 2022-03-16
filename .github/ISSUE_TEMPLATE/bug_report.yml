@@ -81,7 +81,7 @@ body:
         on: ['push', 'schedule']
         jobs:
           test:
-            runs-on:: ubuntu-latest
+            runs-on: ubuntu-latest
           env:
             KEY: VAL
         [...]
